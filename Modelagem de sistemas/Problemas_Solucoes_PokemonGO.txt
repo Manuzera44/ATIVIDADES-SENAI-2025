@@ -1,0 +1,29 @@
+Problemas de Usabilidade do Pokémon go e Possíveis Soluções
+
+1. Conexão instável / captura incerta
+- Problema: Quando há falha de rede, o jogador não sabe se o Pokémon foi capturado ou não.
+- Solução: Mostrar um histórico imediato de capturas ou notificação confirmando sucesso/falha após reconexão.
+
+2. Ações sem possibilidade de desfazer
+- Problema: Gastar itens raros (como passes de raid) ou usar recursos por engano.
+- Solução: Implementar um botão de desfazer ou uma confirmação adicional para itens críticos.
+
+3. Sobrecarga de informações em algumas telas (como batalhas de ginásio/raid)
+- Problema: Muitas informações aparecem ao mesmo tempo, confundindo iniciantes.
+- Solução: Adotar um modo simplificado de exibição para novos jogadores, com interface mais limpa.
+
+4. Excesso de cliques em tarefas repetitivas (ex.: enviar presentes, gerenciar inventário)
+- Problema: Jogadores gastam muito tempo em ações administrativas.
+- Solução: Criar ações em lote (enviar vários presentes de uma vez, excluir itens de forma mais rápida).
+
+5. Mensagens de erro pouco claras (“Erro de rede”)
+- Problema: Jogadores não entendem a causa da falha.
+- Solução: Mensagens mais específicas e úteis, como “Sem conexão com servidor” ou “Verifique sua internet”.
+
+6. Falta de explicações dentro do app (mecânicas avançadas como IVs, batalhas, ligas)
+- Problema: Jogadores dependem de sites externos para aprender detalhes do jogo.
+- Solução: Adicionar um guia interativo dentro do jogo, com dicas contextuais e ajuda rápida.
+
+7. Confirmações nem sempre consistentes
+- Problema: Em algumas ações há confirmação (ex.: transferir Pokémon), em outras não.
+- Solução: Padronizar confirmações para todas as ações importantes.
