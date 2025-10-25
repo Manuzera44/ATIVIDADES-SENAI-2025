@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>Lista de Produtos</h1>
+    <table>
+        <tr>
+            <td>Nome</td>
+            <td>Preço</td>
+            <td>Estoque</td>
+        </tr>
+        {% for produto in lista_produtos  %}
+        <tr>
+            <td>{{ produto.nome }}</td>
+            <td>R$ {{ produto.preço }}</td>
+            <td>{{ produto.estoque }}
+                {% if produto.estoque < 5 %}
+                    <span style="color: red;">(Estoque baixo!)</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
